@@ -34,7 +34,7 @@ model-index:
       name: Improvement over Base Model
 ---
 
-# Any base model (e.g. Qwen3-8B) Fine-tuned on any given Code Repository
+# Fine-tune any base model (e.g. Qwen3-8B) on any given code repository
 
 ## Model Description
 
