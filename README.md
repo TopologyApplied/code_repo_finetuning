@@ -315,8 +315,8 @@ This model is released under the **Apache 2.0 License**, consistent with:
 
 For questions or issues, please contact:
 - Email: xu@tensense.org
-- GitHub: [[TopologyApplied](https://github.com/TopologyApplied)]
-- HuggingFace: [[tensense](https://huggingface.co/tensense)]
+- GitHub: [TopologyApplied](https://github.com/TopologyApplied)
+- HuggingFace: [tensense](https://huggingface.co/tensense)
 
 ---
 
@@ -324,6 +324,7 @@ For questions or issues, please contact:
 
 - **Base Model**: [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B)
 - **Training Code**: [GitHub Repository](https://github.com/TopologyApplied/code_repo_finetuning)
+- **Checkpoint & Finetuned Model**: [Huggingface](https://huggingface.co/tensense/code_repo_finetuning)
 - **Laddr Project**: [GitHub](https://github.com/AgnetLabs/Laddr)
 - **Evaluation Report**: [[Link to comparison_report.json](https://github.com/TopologyApplied/code_repo_finetuning/blob/main/output/comparison_report_Laddr.json)]
 - **Design Documentation**: [[Link to design docs](https://github.com/TopologyApplied/code_repo_finetuning/blob/main/代码仓库智能训练数据生成系统_设计文档.md)]
