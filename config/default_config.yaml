@@ -1,0 +1,87 @@
+data_generation:
+  design_proposals:
+    count: 100
+    requirement_types:
+    - 新功能开发
+    - 性能优化
+    - 架构重构
+    - API设计
+    - 错误处理
+  qa_pairs:
+    count: 500
+    diversity_threshold: 0.7
+    max_code_lines: 40
+    min_code_lines: 5
+dataset:
+  format: jsonl
+  output_dir: ./data/training_data
+  test_split: 0.1
+  train_split: 0.8
+  val_split: 0.1
+evaluation:
+  metrics:
+  - rouge
+  - bleu
+  - exact_match
+  sample_size: 50
+gpu:
+  devices:
+  - 0
+  - 1
+  memory_per_gpu: 48
+llm_api:
+  batch_size: 4
+  max_workers: 2
+  model: Qwen/Qwen3-8B
+  provider: local
+model:
+  base_model: Qwen/Qwen3-8B
+  enable_thinking: true
+  max_length: 2048
+  temperature: 0.7
+  thinking_budget: 4096
+  top_p: 0.9
+project:
+  name: code_repo_training_data_generator
+  version: 1.0.0
+repository:
+  exclude_dirs:
+  - .git
+  - __pycache__
+  - node_modules
+  - .venv
+  - venv
+  - build
+  - dist
+  languages:
+  - python
+  - markdown
+  local_path: ./repos/Laddr
+  url: https://github.com/AgnetLabs/Laddr
+training:
+  batch_size: 2
+  bf16: true
+  deepspeed_config: ./deepspeed_config_optimized.json
+  eval_steps: 100
+  gradient_accumulation_steps: 8
+  learning_rate: 1e-3
+  logging_steps: 10
+  lora:
+    alpha: 128
+    bias: none
+    dropout: 0.05
+    r: 64
+    target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+  max_grad_norm: 1.0
+  num_epochs: 3
+  output_dir: ./output/finetuned_model
+  save_steps: 100
+  warmup_ratio: 0.05
+  weight_decay: 0.01
