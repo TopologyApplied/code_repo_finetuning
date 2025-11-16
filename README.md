@@ -34,7 +34,7 @@ model-index:
       name: Improvement over Base Model
 ---
 
-# Qwen3-8B Fine-tuned on Laddr Repository
+# Any base model (e.g. Qwen3-8B) Fine-tuned on any given Code Repository
 
 ## Model Description
 
