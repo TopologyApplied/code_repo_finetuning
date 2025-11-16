@@ -287,7 +287,7 @@ If you use this model or methodology in your research, please cite:
 
 ```bibtex
 @misc{qwen3-code-repo-finetuned-2025,
-  title={Qwen3-8B Fine-tuned on any Code Repository: LLM-Free Training Data Generation},
+  title={Finetune any base model (e.g. Qwen3-8B) on any given code repository},
   author={Tensense},
   year={2025},
   publisher={HuggingFace},
