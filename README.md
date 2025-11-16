@@ -286,8 +286,8 @@ python scripts/05_evaluate.py
 If you use this model or methodology in your research, please cite:
 
 ```bibtex
-@misc{qwen3-laddr-finetuned-2025,
-  title={Qwen3-8B Fine-tuned on any Repository: LLM-Free Training Data Generation},
+@misc{qwen3-code-repo-finetuned-2025,
+  title={Qwen3-8B Fine-tuned on any Code Repository: LLM-Free Training Data Generation},
   author={Tensense},
   year={2025},
   publisher={HuggingFace},
@@ -309,24 +309,24 @@ This model is released under the **Apache 2.0 License**, consistent with:
 
 ## Model Card Authors
 
-[Your Name]
+[Tensense]
 
 ## Model Card Contact
 
 For questions or issues, please contact:
-- Email: [your-email]
-- GitHub: [your-github]
-- HuggingFace: [your-huggingface-profile]
+- Email: xu@tensense.org
+- GitHub: [[TopologyApplied](https://github.com/TopologyApplied)]
+- HuggingFace: [[tensense](https://huggingface.co/tensense)]
 
 ---
 
 ## Additional Resources
 
 - **Base Model**: [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B)
-- **Training Code**: [GitHub Repository](https://github.com/your-repo)
+- **Training Code**: [GitHub Repository](https://github.com/TopologyApplied/code_repo_finetuning)
 - **Laddr Project**: [GitHub](https://github.com/AgnetLabs/Laddr)
-- **Evaluation Report**: [Link to comparison_report.json]
-- **Design Documentation**: [Link to design docs]
+- **Evaluation Report**: [[Link to comparison_report.json](https://github.com/TopologyApplied/code_repo_finetuning/blob/main/output/comparison_report_Laddr.json)]
+- **Design Documentation**: [[Link to design docs](https://github.com/TopologyApplied/code_repo_finetuning/blob/main/代码仓库智能训练数据生成系统_设计文档.md)]
 
 ## Version History
 
