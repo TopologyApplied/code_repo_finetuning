@@ -288,7 +288,7 @@ If you use this model or methodology in your research, please cite:
 ```bibtex
 @misc{qwen3-code-repo-finetuned-2025,
   title={Finetune any base model (e.g. Qwen3-8B) on any given code repository},
-  author={Tensense},
+  author={Renjun XU},
   year={2025},
   publisher={HuggingFace},
   url={https://huggingface.co/tensense/code_repo_finetuning}
@@ -309,7 +309,7 @@ This model is released under the **Apache 2.0 License**, consistent with:
 
 ## Model Card Authors
 
-[Tensense]
+[Renjun XU]
 
 ## Model Card Contact
 
